@@ -16,7 +16,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand">CandyCandy</a>
                 <div class="navbar-carrito">
-                    <a href="#section-carrito"> 🛒 <span id="badge"> 0 </span></a>
+                    <a href="#section-carrito"> Mi carrito 🛒 <span id="badge"> 0 </span></a>
                 </div>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -31,7 +31,7 @@
             <div class="card-body">
                 <h3 class="data-nombre ">Papa</h3>
                 <p class="data-precio">$5000</p>
-                <button  class="btn-agregar" data-nombre="papa" data-precio="5000">Agregar</button>
+                <button class="btn-agregar" data-nombre="papa" data-precio="5000">Agregar</button>
             </div>
         </div>
 
@@ -39,7 +39,7 @@
             <div class="card-body">
                 <h3 class="nombre">Arroz</h3>
                 <p class="precio">$3000</p>
-                <button  class="btn-agregar" data-nombre="arroz" data-precio="3000">Agregar</button>
+                <button class="btn-agregar" data-nombre="arroz" data-precio="3000">Agregar</button>
             </div>
         </div>
 
@@ -47,7 +47,7 @@
             <div class="card-body">
                 <h3 class="nombre">Tomate</h3>
                 <p class="precio">$6000</p>
-                <button  class="btn-agregar" data-nombre="tomate" data-precio="6000">Agregar</button>
+                <button class="btn-agregar" data-nombre="tomate" data-precio="6000">Agregar</button>
             </div>
         </div>
 
@@ -55,15 +55,18 @@
             <div class="card-body">
                 <h3 class="nombre">Uva</h3>
                 <p class="precio">$50000</p>
-                <button  class="btn-agregar" data-nombre="uva" data-precio="50000">Agregar</button>
+                <button class="btn-agregar" data-nombre="uva" data-precio="50000">Agregar</button>
             </div>
         </div>
     </section>
 
     <section class="section-carrito" id="section-carrito">
-        <div class="container-carrrito">
+        <div class="container-carrito">
             <ul id="lista-carrito">
             </ul>
+            <p id="msg-vacio">
+                Tu carrito está vacío
+            </p>
             <span id="total">$0</span>
             <button id="btn-vaciar">Eliminar</button>
 
